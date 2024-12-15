@@ -82,7 +82,7 @@ const Layout = () => {
             <InfoSection
               header={"Time | 19:00 pm"}
               subtitle={"Fun Games"}
-              lineColorCode={"border-green"}
+              lineColorCode={"border-white"}
             >
               Minus unde, perferendis modi eum quos animi rem laudantium tempore
               recusandae temporibus deserunt non omnis.
@@ -103,7 +103,7 @@ const Layout = () => {
             <InfoSection
               header={"Time | 21:00 pm"}
               subtitle={"Speech"}
-              lineColorCode={"border-green"}
+              lineColorCode={"border-white"}
             >
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Consectetur et minima dolorem veritatis officia tempora?

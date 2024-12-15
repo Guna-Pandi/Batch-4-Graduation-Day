@@ -22,11 +22,11 @@ const ModalAccounts = () => {
          lg:w-[720px]">
 
          <header className="relative flex flex-col items-center justify-start gap-2 w-full rounded-t-md
-            bg-[url('/assets/backgrounds/cbu-header-vertical.png')] bg-no-repeat bg-cover bg-bottom ">
+            bg-[url('/assets/backgrounds/cbu-header-vertical.png')] bg-no-repeat bg-cover bg-[#800000] bg-bottom ">
             <div className="h-[150px] md:h-[150px] lg:h-[150px] flex pt-[4vh]">
                <h2 className="text-2xl font-semibold text-center text-white z-50
                   lg:text-3xl">
-                  ¿No sabés que <br className="md:hidden"></br> regalarnos?
+                  Information <br className="md:hidden"></br> Details
                </h2>
             </div> 
             <img 
@@ -49,7 +49,7 @@ const ModalAccounts = () => {
             lg:w-[450px]">
                <section className="flex items-center gap-2">
                   <img src="./assets/images/green-arrows-icon.png" alt="" className='h-6'/>
-                  <h2 className='font-semibold text-base'>BANCO BBVA</h2>
+                  <h2 className='font-semibold text-base'>BANCO BBVA guna</h2>
                </section>
                <div className="flex flex-col gap-1.5">
                   <div className='flex-wrap'>

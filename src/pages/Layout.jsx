@@ -88,7 +88,7 @@ const Layout = () => {
               recusandae temporibus deserunt non omnis.
             </InfoSection>
             <Button
-              buttonText={"Button 2"}
+              buttonText={"Know More...!"}
               colorCode={"bg-green"}
               action={"openWeatherModal"}
             />
@@ -109,7 +109,7 @@ const Layout = () => {
               Consectetur et minima dolorem veritatis officia tempora?
             </InfoSection>
             <Button
-              buttonText={"Button 3"}
+              buttonText={"Know More...!"}
               colorCode={"bg-green"}
               // url={false}
               action={"openInfoModal"}

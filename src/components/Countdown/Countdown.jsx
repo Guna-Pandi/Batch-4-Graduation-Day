@@ -39,9 +39,9 @@ const FlipUnitContainer = ({ digit, shuffle, unit }) => {
 	const animation2 = !shuffle ? 'fold' : 'unfold';
 
 	return (
-		<div className={'flipUnitContainer'}>
+		<div className={'flipUnitContainer rounded-[15px]'}>
 			<StaticCard position={'upperCard'} digit={currentDigit} />
-			<StaticCard position={'lowerCard'} digit={previousDigit} />
+			<StaticCard position={'lowerCard '} digit={previousDigit} />
 			<AnimatedCard digit={digit1} animation={animation1} />
 			<AnimatedCard digit={digit2} animation={animation2} />
 		</div>
@@ -120,7 +120,7 @@ class FlipClock extends Component {
 
 		return ( 
 			<> 
-				<h5  className='text-xl text-center flex items-center justify-center font-medium w-64 text-white tracking-wide mb-4
+				<h5  className='text-xl text-center flex items-center  justify-center font-medium w-64 text-white tracking-wide mb-4
 					lg:text-2xl lg:pb-8' id="countdown" ></h5>
 				<div className={'flipClock'}>
 					<FlipUnitContainer unit={'months'} digit={months} shuffle={monthsShuffle} />

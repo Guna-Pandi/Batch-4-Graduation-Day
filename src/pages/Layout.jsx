@@ -1,5 +1,5 @@
 import Arrows from "../components/Arrows/Arrows";
-import Button from "../components/Button/Button";
+// import Button from "../components/Button/Button";
 // import ButtonGift from "../components/ButtonGift/ButtonGift"
 import Carousel from "../components/Carousel/Carousel";
 import Countdown from "../components/Countdown/Countdown";
@@ -18,6 +18,7 @@ import ModalConfirm from "../components/ModalConfirm/ModalConfirm";
 import ModalWeather from "../components/ModalWeather/ModalWeather";
 import SectionContainer from "../components/SectionContainer/SectionContainer";
 import SectionContainerElement from "../components/SectionContainerElement/SectionContainerElement";
+import Popper from '../components/Popper/Confetti'
 
 const Layout = () => {
   const { modal, confirmationModal, weatherModal, sent } =
@@ -51,8 +52,11 @@ const Layout = () => {
       <section className="relative flex flex-col items-center w-full h-[100vh] text-sm bg-cream pt-8 px-8 overflow-hidden z-20">
         <Spinner />
         <Portrait />
+        <Popper/>
         <MainHeadline />
+        <Popper/>
         <Arrows id="countdown" />
+        <Popper/>
         <CurvedTopSection bgColor={"bg-[#800000]"} />
       </section>
 

@@ -9,7 +9,7 @@ const ImageComponent = ({ src, alt, margin }) => {
                <li className="ball"></li>
                <li className="ball"></li>
             </div>
-            <div className="flex justify-center items-center h-44">
+            <div className="flex justify-center items-center h-44 ">
                <img src={src} alt={alt} className={`relative h-32 `}/>
             </div>
             <div className=" loader bottom-24 -left-4 rotate-45 z-0">

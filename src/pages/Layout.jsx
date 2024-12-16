@@ -110,7 +110,7 @@ const Layout = () => {
               Fun games are organized to bring everyone together, fostering team
               spirit and creating a lively atmosphere. They offer a perfect
               opportunity to unwind, celebrate, and strengthen bonds after the
-              award ceremony.
+              award ceremony
             </InfoSection>
             {/* <Button
               buttonText={"Know More...!"}

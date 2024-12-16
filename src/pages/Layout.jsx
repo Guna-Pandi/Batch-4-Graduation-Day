@@ -18,7 +18,7 @@ import ModalConfirm from "../components/ModalConfirm/ModalConfirm";
 import ModalWeather from "../components/ModalWeather/ModalWeather";
 import SectionContainer from "../components/SectionContainer/SectionContainer";
 import SectionContainerElement from "../components/SectionContainerElement/SectionContainerElement";
-import Popper from '../components/Popper/Confetti'
+import Popper from "../components/Popper/Confetti";
 
 const Layout = () => {
   const { modal, confirmationModal, weatherModal, sent } =
@@ -52,11 +52,11 @@ const Layout = () => {
       <section className="relative flex flex-col items-center w-full h-[100vh] text-sm bg-cream pt-8 px-8 overflow-hidden z-20">
         <Spinner />
         <Portrait />
-        <Popper/>
+        <Popper />
         <MainHeadline />
-        <Popper/>
+        <Popper />
         <Arrows id="countdown" />
-        <Popper/>
+        <Popper />
         <CurvedTopSection bgColor={"bg-[#800000]"} />
       </section>
 
@@ -88,10 +88,10 @@ const Layout = () => {
               subtitle={"Venue | Board Room"}
               lineColorCode={"border-white"}
             >
-              Initiatives foster a culture of continuous learning and
-              innovation, while the award distribution ceremony recognizes
-              individuals who have shown exceptional dedication and outstanding
-              performance throughout the training
+              Join us as we celebrate the milestone of our graduation day—a
+              moment of pride, reflection, and new beginnings. Together, we'll
+              honor achievements, share inspiring moments, and embrace the
+              journey ahead with unity and optimism.
             </InfoSection>
             {/* <Button
               buttonText={"Know More...!"}

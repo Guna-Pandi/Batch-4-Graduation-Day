@@ -80,18 +80,20 @@ const Layout = () => {
               alt={"Icono música"}
             />
             <InfoSection
-              header={"Time | 19:00 pm"}
-              subtitle={"Fun Games"}
+              header={"Time | 1:30 - 3:30 pm"}
+              subtitle={"Venue | Board Room"}
               lineColorCode={"border-white"}
             >
-              Minus unde, perferendis modi eum quos animi rem laudantium tempore
-              recusandae temporibus deserunt non omnis.
+              Initiatives foster a culture of continuous learning and
+              innovation, while the award distribution ceremony recognizes
+              individuals who have shown exceptional dedication and outstanding
+              performance throughout the training
             </InfoSection>
-            <Button
+            {/* <Button
               buttonText={"Know More...!"}
               colorCode={"bg-green"}
               action={"openWeatherModal"}
-            />
+            /> */}
           </SectionContainerElement>
 
           {/* Present section (only Desktop) ---------- */}
@@ -101,19 +103,21 @@ const Layout = () => {
               alt={"plane icon"}
             />
             <InfoSection
-              header={"Time | 21:00 pm"}
-              subtitle={"Speech"}
+              header={"Time | 4:30 - 6:00 pm"}
+              subtitle={"Venue | Beta Room"}
               lineColorCode={"border-white"}
             >
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur et minima dolorem veritatis officia tempora?
+              Fun games are organized to bring everyone together, fostering team
+              spirit and creating a lively atmosphere. They offer a perfect
+              opportunity to unwind, celebrate, and strengthen bonds after the
+              award ceremony.
             </InfoSection>
-            <Button
+            {/* <Button
               buttonText={"Know More...!"}
               colorCode={"bg-green"}
               // url={false}
               action={"openInfoModal"}
-            />
+            /> */}
           </SectionContainerElement>
         </SectionContainer>
       </section>
